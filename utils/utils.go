@@ -49,3 +49,10 @@ func ToInt(str string) int {
 	}
 	return num
 }
+
+func Abs(x int) int {
+	if x < 0 {
+		return -x
+	}
+	return x
+}
