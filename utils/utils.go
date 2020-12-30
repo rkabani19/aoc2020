@@ -9,7 +9,7 @@ import (
 
 func ReadFile(filepath string) ([]string, error) {
 	var data []string
-	file, err := os.Open(filepath)
+	file, err := os.Open("input/" + filepath)
 	if err != nil {
 		return nil, err
 	}

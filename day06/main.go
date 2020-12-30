@@ -39,7 +39,7 @@ func part1(data []map[byte]bool) int {
 }
 
 func readFile(data *[]map[byte]bool) {
-	file, err := os.Open("day6.txt")
+	file, err := os.Open("./input/day6.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

@@ -115,7 +115,7 @@ func part1(data []string) int {
 }
 
 func readFile(data *[]string) {
-	file, err := os.Open("day5.txt")
+	file, err := os.Open("./input/day5.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

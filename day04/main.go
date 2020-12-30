@@ -142,7 +142,7 @@ func part1(data []map[string]string) int {
 }
 
 func readFile(data *[]map[string]string) {
-	file, err := os.Open("day4.txt")
+	file, err := os.Open("./input/day4.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

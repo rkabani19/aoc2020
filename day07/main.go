@@ -63,7 +63,7 @@ func containsMyBag(graph map[string]map[string]int, node string) bool {
 }
 
 func readFile(graph map[string]map[string]int) {
-	file, err := os.Open("day7.txt")
+	file, err := os.Open("./input/day7.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

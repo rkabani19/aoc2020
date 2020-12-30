@@ -45,7 +45,7 @@ func printNumTrees(data []string, right int, down int) int {
 }
 
 func readFile(data *[]string) {
-	file, err := os.Open("day3.txt")
+	file, err := os.Open("./input/day3.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

@@ -69,7 +69,7 @@ func part2(data []int, totalSum int) (int, error) {
 }
 
 func readFile(data *[]int) {
-	file, err := os.Open("day1.txt")
+	file, err := os.Open("./input/day1.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
